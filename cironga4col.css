@@ -1,0 +1,349 @@
+
+body {
+     
+ background: linear-gradient(to right,rgba(120,7,35,1) 0%, rgba(143,2,34,1) 44% , rgba(41,2,11,1) 100%);
+
+ width: 100%;
+ height: auto;
+
+ }
+    
+}
+#mimenu {
+  
+  width: 1140px; 
+  height: 60px;
+}
+
+#titulo {
+
+  top: 5px;
+ width:  100%; 
+  height: 200px;
+ /* position:fixed;*/
+ padding: 10px;
+  left: 5%;
+  font-size: xx-large;
+  color: white;
+
+}
+
+
+#myCarousel {
+
+top:200px;
+width: 40%;
+left:5%;
+position: absolute;
+max-height: 800px;
+
+  
+}
+
+#myCarousel .carousel-inner img {
+     width: 100%;  Set width to 100% 
+  
+  height: 700px;
+
+ }
+
+#myCarousel .carousel-inner, .carousel-inner > .item > img {
+
+max-height: 700px;
+}
+
+
+
+#logo{
+	   width:225px; 
+    height: 180px;
+  /*  background-color:black; */
+    margin-bottom: 0px;
+    margin-left: 50px;
+
+}
+#encabezado {
+ 	width:80%; 
+    height:50px;
+    margin:0 auto;
+    margin-bottom:10px;
+}
+
+
+/*#pie-pagina{
+
+   	width:90%; 
+    height:50px;
+    margin:0 auto;
+    margin-bottom:10px;
+    text-align: center;
+}*/
+
+
+#galeria{
+
+/* margin-top:200px;*/
+ margin-right: 5%;
+ width: 40%;
+/*  height: 800px;*/
+ /* column-count: 4;*/
+  float: right;
+  max-height: 680px;
+  overflow: auto;
+
+ 
+}
+
+#articulo {
+
+										width: 230px;
+										height: 230px;
+										padding: 10px;
+										display: inline-grid;
+										}
+										  .articulo a:hover{
+										    background-color:blue;
+										    color:white;
+										  }
+
+										#galeria .imagen-galeria{
+
+											margin: 2px;
+										    width: 200px;
+										    height: 200px;
+										    padding: 2px;
+										 
+										  border: white 1px outset;
+										}
+
+#texto-imagen{
+
+
+    width:100%;
+    padding: 5px;
+
+    box-sizing:border-box;
+    color: white;
+    font-size:large;
+    text-align: center;
+
+
+}
+
+
+
+
+.navbar-cg {
+  
+    height:50px;
+    width:80%;
+    margin-left: 0px;
+    background-color:#211d1d;
+    border:  1px solid transparent; 
+    margin:0 auto;
+  
+}
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#pie{
+    position: fixed;
+    left: 50;
+    text-align: center;
+    top:900px;
+    width: 90%;
+    padding-top: 10px;
+}
+
+
+        .fa {
+            padding: 10px;
+            font-size: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+
+            .fa:hover {
+                opacity: 0.9;
+            }
+
+        .fa-facebook {
+        /*    background: #808080;*/
+            background: white;
+            color: black;
+        }
+
+        .fa-twitter {
+             background: white;
+            color: black;
+        }
+
+        .fa-google {
+              background: white;
+            color: black;
+        }
+
+        .fa-linkedin {
+              background: white;
+            color: black;
+        }
+
+        .fa-instagram {
+             background: white;
+            color: black;
+        }
+        .Mislide{
+            max-height: 80%;
+            max-width: 80%
+        }
+
+
+        #redes {
+           
+            float: right;
+           
+            width: 300px;
+            margin-top: 70px;
+        }
+
+        /***************************************/
+        /*                                     */
+        /* Portrait tablets and small desktops */
+        /*                                     */
+        /***************************************/
+
+/*        @media  (min-height:  690px){
+        	     #myCarousel {
+                            top:140px;
+                            /* width: 500px;*/
+                          
+/*                            left: 40px;
+                            position: fixed;
+                            max-height: 300px;
+                             
+                            }
+                            #myCarousel .carousel-inner, .carousel-inner > .item > img {
+
+
+                            max-height: 530px;
+                             }
+                             
+                            .carousel-inner > .item > img,
+                            .carousel-inner > .item > img {
+                   
+                             height: 300px;
+                            }
+        }*/
+        @media  (max-width: 953px) {
+                         
+
+                            #myCarousel {
+                            top:140px;
+                            /* width: 500px;*/
+                            width: 90%;
+                            left: 40px;
+                            position: fixed;
+                            max-height: 500px;
+
+                              
+                            }
+                            #myCarousel .carousel-inner, .carousel-inner > .item > img {
+
+
+                            max-height: 500px;
+                             }
+                             
+                            .carousel-inner > .item > img,
+                            .carousel-inner > .item > img {
+                              width: 600px;
+                             height: 500px;
+                            }
+
+
+                            #titulo {
+
+                                 top: 5px;
+                                  width:90%; 
+                                  height: 50px;
+                                  position:fixed;
+                                 
+                                  left: 5%;
+                                  font-size: xx-large;
+                                  color: white;
+
+                             }
+
+                             #galeria{
+                             		margin-top: 700px;
+                             		margin-right: 5px;
+                             	/*	margin-left: 70px;*/
+									width: 90%;
+									height: 230px;
+ 									overflow: auto;
+
+ 
+							}
+							#articulo {
+
+										width: 160px;
+										height: 160px;
+										padding: 10px;
+										display: inline-grid;
+										}
+										  .articulo a:hover{
+										    background-color:blue;
+										    color:white;
+										  }
+
+										#galeria .imagen-galeria{
+
+											margin: 2px;
+										    width: 130px;
+										    height: 130px;
+										    padding: 2px;
+										 
+										  border: white 1px outset;
+										}
+
+							#texto-imagen{
+										    font-size: small;
+										    text-align: center;
+												}
+	                           #logo{
+                                  height: 125px;
+                                  width: 125px;
+                             }
+
+                             #redes {
+                                    
+                                       
+                                       float: right;
+                                        width: 38%;
+                                        margin-top: 25px;
+                                                          }
+                              .fa {
+                                  padding: 10px;
+                                  font-size: 20px;
+                                  text-align: center;
+                                  text-decoration: none;
+                                  border-radius: 50%;
+                                  width: 40px;
+                                  height: 40px;
+                              }
+
+                            #pie{
+                                display: none;
+                            }
+                      }
