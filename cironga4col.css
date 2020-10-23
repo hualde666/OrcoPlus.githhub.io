@@ -84,8 +84,8 @@ max-height: 650px;
 }
 
 .articulo {
-		width: 230px;
-    height: 230px;
+		width: 33%;
+    height: 33%;
 		padding: 10px;
     display: inline-grid;
 }
