@@ -31,17 +31,17 @@ body {
 
 #myCarousel {
 
-top:200px;
-width: 40%;
-left:5%;
-position: absolute;
- max-height: 650px;  
+/* top:200px; */
+/* width: 40%; */
+/* left:5%; */
+/* position: absolute; */
+ /* max-height: 650px;   */
  
 }
 
 .carousel-inner > .item  {
-
-max-height: 650px;
+/* 
+max-height: 650px; */
 }
  
 
