@@ -31,17 +31,17 @@ body {
 
 #myCarousel {
 
-/* top:200px; */
-/* width: 40%; */
-/* left:5%; */
-/* position: absolute; */
- /* max-height: 650px;   */
+top:200px; 
+width: 40%;
+left:5%;
+position: absolute;
+ max-height: 650px;  
  
 }
 
 .carousel-inner > .item  {
-/* 
-max-height: 650px; */
+
+max-height: 650px;
 }
  
 
@@ -49,7 +49,7 @@ max-height: 650px; */
 .logorco{
 	   width:225px; 
     height: 180px;
-  /*  background-color:black; */
+   background-color:black;
     margin-bottom: 0px;
     margin-left: 50px;
 
@@ -62,23 +62,22 @@ max-height: 650px; */
 }
 
 
-/*#pie-pagina{
+#pie-pagina{
 
    	width:90%; 
     height:50px;
     margin:0 auto;
     margin-bottom:10px;
     text-align: center;
-}*/
+}
 
 
 .galeria{
- margin-right: 2%;
- width: 50%;
-
-  float: right;
-  max-height: 680px;
-  overflow: auto;
+    margin-right: 2%;
+    width: 50%;
+    float: right;
+    max-height: 680px;
+    overflow: auto;
 
  
 }
@@ -151,9 +150,8 @@ max-height: 650px; */
     width: 90%;
     padding-top: 10px;
 }
-
-
-        .fa {
+ 
+.fa {
             padding: 10px;
             font-size: 30px;
             text-align: center;
@@ -161,44 +159,44 @@ max-height: 650px; */
             border-radius: 50%;
             width: 50px;
             height: 50px;
-        }
+       } 
 
-            .fa:hover {
+.fa:hover {
                 opacity: 0.9;
-            }
+          }
 
-        .fa-facebook {
+.fa-facebook {
         /*    background: #808080;*/
             background: white;
             color: black;
         }
 
-        .fa-twitter {
+.fa-twitter {
              background: white;
             color: black;
         }
 
-        .fa-google {
+.fa-google {
               background: white;
             color: black;
         }
 
-        .fa-linkedin {
+.fa-linkedin {
               background: white;
             color: black;
         }
 
-        .fa-instagram {
+.fa-instagram {
              background: white;
             color: black;
         }
-        .Mislide{
+.Mislide{
             max-height: 80%;
             max-width: 80%
         }
 
 
-        #redes {
+#redes {
            
             float: right;
            
